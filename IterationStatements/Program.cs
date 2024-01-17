@@ -67,7 +67,7 @@ namespace IterationStatements
                 // in your conditional, as long as i is less than or equal to the amount of items in "numbers" - use (numbers.Count)
                 // AND as long as i is greater than or equal to 0
                 // Decrement i by 1
-            for (int i = 200; i > 0; i--)
+            for (int i = 200; i <= numbers.Count && i > 0; i--)
             //start for loop here
             {
                 Console.WriteLine(i); // place numbers[i] inside of the Console.WriteLine() method
